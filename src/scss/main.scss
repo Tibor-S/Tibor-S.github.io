@@ -1,0 +1,21 @@
+
+$primary: #606c38ff;
+$secondary: #bc6c25ff;
+$info: #dda15eff;
+$dark: #283618ff;
+$light: #fefae0ff;
+$off-white: #f0ead6;
+
+$body-bg: $dark;
+$body-color: $off-white;
+
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+//{
+//  --off-white: #f0ead6;
+//  --main: #606c38ff;
+//  --dark: #283618ff;
+//  --highligth: #fefae0ff;
+//  --light: #dda15eff;
+//  --comp: #bc6c25ff;
+//}
