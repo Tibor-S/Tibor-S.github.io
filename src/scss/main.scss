@@ -7,9 +7,17 @@ $light: #fefae0ff;
 $off-white: #f0ead6;
 
 $body-bg: $dark;
-$body-color: $off-white;
+$color: $off-white;
+$body-color: $color;
+$link-color: $color;
+$h2-font-size: 24px;
+
 
 @import "../../node_modules/bootstrap/scss/bootstrap";
+
+h2 {
+  color: $color;
+}
 
 //{
 //  --off-white: #f0ead6;
